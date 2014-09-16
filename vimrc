@@ -205,7 +205,7 @@ nnoremap <silent><leader><space> :noh<cr>
 
 " Easy copy/paste to clipboard
 map <leader>y "+y
-nmap <leader>p "+p 
+nmap <leader>p "+p
 
 " Remap ESC to jj
 imap jj <Esc>
@@ -243,3 +243,5 @@ nmap <F12> :!pep8 %<CR>
 
 set cmdwinheight=32
 set relativenumber
+
+hi Search cterm=None ctermfg=black ctermbg=white
